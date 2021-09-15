@@ -150,104 +150,49 @@ p {
     height: 70%;
   }
 }
-@media only screen and ( max-width: 568px) and ( orientation: landscape ) {
+@media only screen and ( max-width: 480px) and ( orientation: landscape ) {
+  .background-img {
+    position: relative;
+    top: 50px;
+  }
+  .card {
+    height: 84%;
+  }
+  .victor-img img {
+    width: 74%;
+    top: -28px;
+  }
+  .victor-info h1 {
+    font-size: 15px;
+    top: -11px;
+  }
+  .victor-info p {
+    font-size: 15px;
+    top: 0;
+  }
+} 
+
+@media only screen and ( max-width: 768px) and ( orientation: landscape ) {
   .card {
     height: 85%;
   }
-  .victor-img img {
-    width: 74%;
-  }
-  .victor-info h1 {
-    font-size: 15px;
-  }
-}
-
-@media only screen and ( max-width: 375px) {
-  .card {
-    height: 65%;
-  }
-}
-
-@media only screen and ( max-width: 667px) and ( orientation: landscape ) {
-  .card {
-    height: 85%;
-  }
   .background-img img {
     top: -41px;
   }
 
   .victor-img img {
     width: 74%;
-    top: -36px;
+    top: -33px;
   }
   .victor-info h1 {
     font-size: 15px;
-    top: -15px;
+    top: -10px;
   }
-}
-
-@media only screen and ( max-width: 414px) {
-  .card {
-    height: 65%;
-  }
-}
-
-@media only screen and ( max-width: 736px) and ( orientation: landscape ) {
-  .card {
-    height: 80%;
-  }
-  .background-img img {
-    top: -41px;
-  }
-
-  .victor-img img {
-    width: 74%;
-    top: -36px;
-  }
-  .victor-info h1 {
+  .victor-info p {
     font-size: 15px;
-    top: -15px;
+    top: 0;
   }
-}
+} 
 
-@media only screen and ( max-width: 375px) {
-  .card {
-    height: 65%;
-  }
-}
 
-@media only screen and ( max-width: 375px) {
-  .card {
-    height: 50%;
-  }
-  .background-img img {
-    top: -41px;
-  }
 
-  .victor-img img {
-    width: 74%;
-    top: -36px;
-  }
-  .victor-info h1 {
-    font-size: 15px;
-    top: -15px;
-  }
-}
-
-@media only screen and ( max-width: 812px) and ( orientation: landscape ) {
-  .card {
-    height: 50%;
-  }
-  .background-img img {
-    top: -41px;
-  }
-
-  .victor-img img {
-    width: 74%;
-    top: -36px;
-  }
-  .victor-info h1 {
-    font-size: 15px;
-    top: -15px;
-  }
-}
