@@ -49,6 +49,7 @@ body {
   height: 55%;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 10px 25px 10px var(--gray), 20px 50px 40px var(--gray), 20px 70px 70px var(--gray);
 }
 
 .background-img {
@@ -147,7 +148,7 @@ p {
 
 @media only screen and ( max-width: 320px) {
   .card {
-    height: 70%;
+    height: 50%;
   }
 }
 @media only screen and ( max-width: 480px) and ( orientation: landscape ) {
@@ -181,8 +182,8 @@ p {
   }
 
   .victor-img img {
-    width: 74%;
-    top: -33px;
+    width: 79%;
+    top: -3px;
   }
   .victor-info h1 {
     font-size: 15px;
@@ -193,6 +194,5 @@ p {
     top: 0;
   }
 } 
-
 
 
